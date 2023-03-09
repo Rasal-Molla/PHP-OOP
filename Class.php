@@ -1,26 +1,33 @@
 <?php
 
-class Human{
+class Human
+{
     public $name;
     public $age;
-    function identity(){
+    function identity()
+    {
         echo "My name is {$this->name} \n";
         echo "My current age is {$this->age} \n";
     }
 
-    function age(){
+    function age()
+    {
         echo "My current age is 24 years \n";
     }
 }
 
-class City{
-    function location(){
+class City
+{
+    function location()
+    {
         echo "My home town is Madaripur \n";
     }
 }
 
-class Present{
-    function current(){
+class Present
+{
+    function current()
+    {
         echo "Now I'm in Uttara \n";
     }
 }
