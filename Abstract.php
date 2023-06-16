@@ -50,6 +50,6 @@ class Triangle extends Format{
         
     }
 }
-
+// Function call
 $rec = new Rectangle(8,8);
 echo $rec->getArea();
