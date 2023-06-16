@@ -4,6 +4,8 @@ class Information
 {
     public $name;
     public $age;
+    
+    // Constructor function
     function __construct($personName, $personAge = 0)
     {
         //echo "Construct created \n";
